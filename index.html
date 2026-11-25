@@ -153,7 +153,7 @@ h+='<tr class="grp"><td class="l" colspan="3">'+g+' 소계</td><td>'+cs.reduce((
 h+='<tr class="tot"><td class="l" colspan="3">합계</td><td>'+C.reduce((a,c)=>a+c.n,0)+'</td>'+tot.map(v=>'<td>'+won(v)+'</td>').join('')+'<td>'+won(T)+'</td></tr></tbody>';
 document.getElementById('mm').innerHTML=h;}
 const cpb=(v,label)=>'<button class="cp" data-copy="'+att(v)+'" aria-label="'+label+' 복사">복사</button>';
-function card(a,extra){const t=TYPE(a.name);let p='';if(FLAG[a.id])p+='<span class="badge new">'+FLAG[a.id]+'</span>';if(PROD(t)&&/예약/.test(a.start||''))p+='<span class="badge">'+PRODB+'</span>';
+function card(a,extra){const t=TYPE(a.name);let p='';if(FLAG[a.id])p+='<span class="badge new'+(HL.includes(a.id)?' hlb':'')+'"'+(HL.includes(a.id)?' style="background:'+HLC+';border-color:'+HLC+';color:#111"':'')+'>'+FLAG[a.id]+'</span>';if(PROD(t)&&/예약/.test(a.start||''))p+='<span class="badge">'+PRODB+'</span>';
 return '<article class="ad'+(FLAG[a.id]?' new':'')+(HL.includes(a.id)?' hl':'')+'"'+(HL.includes(a.id)?' style="--hl:'+HLC+'"':'')+'><button class="thumb" data-id="'+a.id+'" aria-label="'+a.id+' 원본 보기"><img loading="lazy" src="img_'+a.id+'.jpg" alt="'+esc(a.name)+'"></button><div class="bd">'
 +'<div class="id"><b>'+a.id+'</b><span>'+esc(t)+'</span>'+p+'</div>'+(extra||'')
 +'<div class="f"><span class="k">소재명'+cpb(a.name,'소재명')+'</span><span class="v">'+esc(a.name)+'</span></div>'
