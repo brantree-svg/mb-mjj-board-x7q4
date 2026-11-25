@@ -114,7 +114,7 @@
 [설명] 무신사 무진장 11/22(일)-12/2(수)
 [CTA] 쇼핑하기
 [광고 시작] 11/26(목)
-[URL] https://www.musinsa.com/brand/mindbridge
+[URL] https://www.musinsa.com/products/7352099
 
 07) 광고명 : MB무진장_M23_화보_M1MF0001_캐시미어니트숏머플러_B
 이미지 : MB무진장_M23_화보_M1MF0001_캐시미어니트숏머플러_B.jpg
@@ -133,7 +133,7 @@
 [설명] 무신사 무진장 11/22(일)-12/2(수)
 [CTA] 쇼핑하기
 [광고 시작] 11/26(목)
-[URL] https://www.musinsa.com/brand/mindbridge
+[URL] https://www.musinsa.com/products/7352099
 
 08) 광고명 : MB무진장_M24_화보_M1MF0002_캐시미어골지짜임머플러_A
 이미지 : MB무진장_M24_화보_M1MF0002_캐시미어골지짜임머플러_A.jpg
@@ -152,7 +152,7 @@
 [설명] 무신사 무진장 11/22(일)-12/2(수)
 [CTA] 쇼핑하기
 [광고 시작] 11/26(목)
-[URL] https://www.musinsa.com/brand/mindbridge
+[URL] https://www.musinsa.com/products/7352097
 
 09) 광고명 : MB무진장_M25_화보_M1MF0002_캐시미어골지짜임머플러_B
 이미지 : MB무진장_M25_화보_M1MF0002_캐시미어골지짜임머플러_B.jpg
@@ -171,4 +171,4 @@
 [설명] 무신사 무진장 11/22(일)-12/2(수)
 [CTA] 쇼핑하기
 [광고 시작] 11/26(목)
-[URL] https://www.musinsa.com/brand/mindbridge
+[URL] https://www.musinsa.com/products/7352097
